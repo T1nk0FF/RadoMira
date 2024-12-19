@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Указываем кодировку страницы и обеспечиваем корректное отображение -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pract</title>
+    <link rel="icon" href="img/Logo,RadoMira,dog, _poodle,b_w (1) (1).jpg" type="image/png">
+
+    <!-- Подключаем JavaScript файл -->
+    <script src="script.js" defer></script>
+
+    <!-- Подключаем CSS файл -->
+    <link rel="stylesheet" href="practstyle.css">
+
+    <!-- Подключаем шрифт с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <!-- Контейнер для заголовка и навигации -->
+    <div class="header-container">
+
+        <!-- Логотип с ссылкой на главную страницу -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.jpg" alt="Logo" class="logo-img">
+            </a>
+        </div>
+
+        <!-- Основное навигационное меню -->
+        <nav class="nav">
+            <ul class="menu1">
+                <!-- Пункты меню -->
+                <li><a href="aboutme.html" class="menu">About me</a></li>
+                <li><a href="galery.html" class="menu">Gallery</a></li>
+                <li><a href="awards.html" class="menu">Awards</a></li>
+                <li><a href="#" class="menu" onclick="openMenu()">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Боковое меню для контактов -->
+<div id="sideMenu" class="side-menu"> 
+    <button class="close-btn" onclick="closeMenu()">×</button>
+    <h2>Contact Information</h2>
+    
+    <!-- Контактные данные -->
+    <p>Email: maganova_poli****</p>
+    <p>Phone: +7-977-330-**-**</p>
+</div>
+
+<!-- Заголовок страницы -->
+<h1 class="h1">Lorem Ipsum</h1>
+
+<!-- Основной контейнер с текстом и изображением -->
+<div class="container">
+    
+    <!-- Текстовый блок -->
+    <p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper, ex sit amet placerat sollicitudin, justo ante semper sapien, non iaculis sapien dolor quis nibh. Cras metus diam, sagittis nec semper eget, elementum vitae massa. Fusce consequat ornare erat sit amet commodo. Vestibulum vitae nisi porttitor orci ultricies venenatis. Sed sit amet imperdiet dui. Sed dignissim est sit amet massa semper, pharetra dapibus lorem luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sollicitudin tellus vel molestie. Suspendisse eu consequat mi. Nunc imperdiet, arcu sit amet rutrum gravida, tellus quam pulvinar ex, mollis egestas diam ex nec ante. Aenean in ante nec turpis dignissim aliquet. Pellentesque mollis quam non risus iaculis sollicitudin. Pellentesque porta ipsum nec scelerisque iaculis. Mauris euismod eros ac orci blandit maximus. Duis vel dictum magna.
+        <br><br>Phasellus laoreet scelerisque ornare. Phasellus in leo risus. In nulla felis, finibus a metus non, vehicula viverra ligula. Cras et iaculis mi. Sed eu vestibulum velit, eget placerat massa. Praesent ultricies molestie nulla, non efficitur enim blandit et. Proin aliquam posuere neque auctor pulvinar. Praesent in lorem quis magna fringilla mattis vitae id quam. Etiam cursus pretium rutrum. Donec fringilla rhoncus odio, sodales maximus leo rutrum in. Nunc ut dui mi. Sed malesuada tempus nulla, at tristique orci ornare at. Ut sagittis, elit a interdum porttitor, arcu mauris tristique tellus, sit amet vulputate arcu sem ac diam. Quisque tempor erat ac erat elementum, eu vulputate orci pretium. Sed non sagittis ante. Suspendisse non bibendum lectus.
+        <br><br>Etiam faucibus est mauris, vitae maximus nisi congue et. Nulla et aliquet metus. Nulla ultrices posuere risus, ac porta massa dictum vel. Proin quis erat vel orci ultrices molestie. Pellentesque purus eros, tristique ut nunc vel, viverra tempus ante. Integer a metus vitae elit auctor elementum non eu sapien. Vestibulum quam massa, suscipit et ex at, placerat scelerisque quam. Aenean condimentum elit at nisl interdum, eu dictum justo euismod.</p>
+   
+        <!-- Изображение -->
+    <img src="img/photo_2024-05-13_00-13-36 (2).jpg" class="img">
+</div>
+
+<!-- Блок с мини-картой -->
+<div class="mini-map">
+    <h2 class="h2">Mini Map</h2>
+    
+    <!-- Карта с использованием Google Maps -->
+    <iframe class="minimap1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.434307522816!2d37.61270459411057!3d55.75095732273734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JrRgNC10LzQu9GM!5e0!3m2!1sru!2sae!4v1734007362880!5m2!1sru!2sae">
+    </iframe>
+</div>
+
+</body>
+</html>
